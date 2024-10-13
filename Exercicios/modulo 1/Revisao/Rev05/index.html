@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&family=Share+Tech&display=swap');    
+
+        body{
+            font-family: 'League Spartan';
+            background-color: rgb(53, 53, 53);
+            margin: 0;
+        }
+
+        header{
+            background-image: linear-gradient(to bottom, green, lime);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container{
+            display: inline-block;
+            font-family: 'Oswald';
+            font-size: 20px;
+            margin: 10px;
+        }
+        
+        .container:hover{
+            color: rgb(67, 67, 67);
+        }
+
+        .marca{
+            background-image: linear-gradient(to right, hsla(120, 100%, 50%, 0.5), white);
+        }
+
+        .link{
+            color: green;
+            text-decoration: none;
+        }
+
+        .link:hover{
+            color: rgb(0, 70, 0);
+        }
+
+        .listas{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        .linkheader{
+            text-decoration: none;
+            color: white;
+        }
+
+        .linkheader:hover{
+            color: rgb(0, 70, 0);
+        }
+
+        #main01{
+            display: flex;
+            background-color: rgb(61, 61, 61);
+            height: 50vmax;
+            width: 75%;
+
+        }
+
+        #main02{
+            background-color: white;
+        }
+
+        #main02 > div{
+            background-color: gray;
+        }
+
+        #main02 > div > h3{
+            background-color: green;
+            border-radius: 10px 10px 0px 0px;
+            padding: 10px;
+        }
+
+        #main01 > iframe{
+            display: flex;
+            margin: auto;
+            padding: 10px;
+            width: 90%;
+            height: 70%;
+            
+        }
+
+        #main02 > div{
+            border-radius: 10px;
+        }
+
+        #main02 > div > p{
+            padding: 10px;
+        }
+
+        main{
+            box-shadow: 0px 0px 10px black;
+            background-color: white;
+            font-family: 'Share Tech';
+            margin: auto;
+            width: 75%;
+            padding: 5px;
+        }
+        
+        p{
+            text-indent: 30px;
+        }
+
+        h2{
+            margin: 0;
+            color: green;
+        }
+
+        img{
+            display: flex;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        footer{
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+            font-family: 'Oswald';
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SITE</h1>
+        <div class="container">home</div>
+        <div class="container"><a href="" class="linkheader">noticias</a></div>
+        <div class="container">curiosidades</div>
+        <div class="container">fale conosco</div>
+    </header>
+    <main>
+        <h2 class="center">HÍSTORIA DO MASCOTE DA ANDROID</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut et perspiciatis, eveniet sed odit excepturi ea? Labore reiciendis eveniet accusamus, doloremque exercitationem facilis nemo asperiores? Minus laboriosam voluptatem dolor unde.</p>
+        <h2 class="marca">A PRIMEIRA VERSÂO</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, atque! Voluptates facilis ab aperiam suscipit vel natus praesentium obcaecati consectetur debitis, magni iste dolore aut unde, <a href="" class="link">deserunt</a> nemo sed ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, sunt dolorem vel <a href="" class="link">sapiente</a> a nam voluptatibus minima eligendi perferendis, explicabo doloribus incidunt voluptatem autem dicta! Nam repudiandae culpa eos pariatur.</p>
+        <img src="Android-Logo-2008-2019.jpg" alt="">
+        <h2 class="marca">SURGE UM NOVO MASCOTE</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur odit officia necessitatibus quia illo, pariatur a ullam consequatur dolor ex repudiandae eius deserunt sapiente voluptas, tempora aliquid officiis laborum voluptatibus!</p>
+    </main>
+    <main id="main01">
+        <iframe width="500" height="280" src="https://www.youtube.com/embed/XBju3DFDCw8?si=CR9tb0ugAzj-79J1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+    <main id="main02">
+        <div>
+            <h3>QUER SABER MAIS?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, est tempore. Minus, nulla! Rerum vel tempore non illum corrupti odio aliquam eligendi necessitatibus, officia similique fugit dignissimos sapiente, aut aspernatur?</p>
+            <div class="listas">
+                <ul>
+                    <li>lista 1</li>
+                    <li>lista 2</li>
+                    <li>lista 3</li>
+                    <li>lista 4</li>
+                    <li>lista 5</li>
+                </ul>
+                <ul>
+                    <li>lista 6</li>
+                    <li>lista 7</li>
+                    <li>lista 8</li>
+                    <li>lista 9</li>
+                    <li>lista 10</li>
+                </ul>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum laudantium ipsa eius, fugiat, maiores quam aspernatur totam vitae voluptates ratione. Amet corporis aut dolorem vitae velit dignissimos molestiae accusamus!</p>
+        </div>
+    </main>
+    <footer>
+        feito por willian dos santos
+    </footer>
+</body>
+</html>

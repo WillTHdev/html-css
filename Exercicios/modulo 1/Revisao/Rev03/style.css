@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    font-family: 'League Spartan';
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(62, 62, 62) , rgb(81, 81, 81));
+}
+
+header{
+    box-shadow: 0px 0px 15px black;
+    margin: auto;
+    width: 900px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #1B1B42;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+main{
+    box-shadow: 0px 0px 15px black;
+    margin: auto;
+    width: 900px;
+    background-color: white;
+    padding: 2px;
+}
+
+main > div{
+    width: 250px;
+    margin: auto;
+}
+
+main > div > img{
+    display: block; margin: auto;
+}
+
+#pmod{
+    display: none;
+}
+
+main > div:hover > p#pmod{
+    display: block;
+    text-align: center;
+}
+
+#p2mod{
+    margin: 10px;
+}
+
+main > h2 > span{
+    display: block; margin: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 650px;
+    text-align: center;
+}
+
+main > h3{
+    text-align: center;
+}
+
+main > p{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    box-shadow: 0px 5px 15px black;
+    margin: auto;
+    width: 900px;
+    background-color: #1F1F33;
+    color: white;
+    padding: 1px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer > h3{
+    text-align: center;
+}
+
+footer > ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer > ul > li > a{
+    color: red;
+    text-decoration: none;
+}
+
+footer > ul > li > a:hover{
+    color: rgb(95, 0, 0);
+}
+
+footer > p{
+    display: none;
+}
+
+footer:hover > p{
+    display: block;
+    text-align: right;
+}
